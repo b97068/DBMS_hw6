@@ -1,0 +1,711 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ALREADY_DELETED	include/heapfile.h	/^    ALREADY_DELETED,$/;"	e	enum:heapErrCodes
+ATTRCATNAME	include/catalog.h	32;"	d
+ATTRNOTFOUND	include/new_error.h	/^              ATTRNOTFOUND, INSUFMEM, NOMORERECS,$/;"	e	enum:Status
+Ascending	include/minirel.h	/^enum TupleOrder { Ascending, Descending, Random };$/;"	e	enum:TupleOrder
+AttrCatalog	include/catalog.h	/^class AttrCatalog : public HeapFile$/;"	c
+AttrDesc	include/catalog.h	/^struct AttrDesc$/;"	s
+AttrOperator	include/minirel.h	/^enum AttrOperator {$/;"	g
+AttrType	include/minirel.h	/^enum AttrType { attrString, attrInteger, attrReal,  attrSymbol, attrNull };$/;"	g
+Available	include/buf.h	/^    enum STATE {Available, Referenced, Pinned};$/;"	e	enum:Replacer::STATE
+BAD_BUFFER	include/buf.h	/^    BAD_BUFFER,$/;"	e	enum:bufErrCodes
+BAD_BUF_FRAMENO	include/buf.h	/^    BAD_BUF_FRAMENO,$/;"	e	enum:bufErrCodes
+BAD_PAGE_NO	include/db.h	/^        BAD_PAGE_NO,$/;"	e	enum:DB::__anon3
+BAD_REC_PTR	include/heapfile.h	/^    BAD_REC_PTR,$/;"	e	enum:heapErrCodes
+BAD_RID	include/heapfile.h	/^    BAD_RID,$/;"	e	enum:heapErrCodes
+BTINDEXPAGE	include/new_error.h	/^                          SORTEDPAGE, BTINDEXPAGE, BTLEAFPAGE,$/;"	e	enum:Status
+BTINDEX_PAGE_H	include/btindex_page.h	9;"	d
+BTIndexPage	include/btindex_page.h	/^class BTIndexPage : public SortedPage {$/;"	c
+BTLEAFPAGE	include/new_error.h	/^                          SORTEDPAGE, BTINDEXPAGE, BTLEAFPAGE,$/;"	e	enum:Status
+BTLEAF_PAGE_H	include/btleaf_page.h	9;"	d
+BTLeafPage	include/btleaf_page.h	/^class BTLeafPage : public SortedPage {$/;"	c
+BTREE	include/new_error.h	/^              BUFMGR, RECOVERYMGR, LOGMGR, SHAREDMEMORYMGR, BTREE,$/;"	e	enum:Status
+BT_H	include/bt.h	9;"	d
+BTreeFile	include/btfile.h	/^class BTreeFile: public IndexFile {$/;"	c
+BTreeFileScan	include/btreefilescan.h	/^class BTreeFileScan : public IndexFileScan {$/;"	c
+BTreeHeaderPage	include/btfile.h	/^    struct BTreeHeaderPage {$/;"	s	class:BTreeFile
+BUFFER_EXCEEDED	include/buf.h	/^    BUFFER_EXCEEDED,$/;"	e	enum:bufErrCodes
+BUFMGR	include/new_error.h	/^              BUFMGR, RECOVERYMGR, LOGMGR, SHAREDMEMORYMGR, BTREE,$/;"	e	enum:Status
+B_Index	include/minirel.h	/^enum IndexType {None, B_Index, Hash};$/;"	e	enum:IndexType
+BufMgr	include/buf.h	/^class BufMgr {$/;"	c
+CANT_ADD_FILE_ENTRY	include/btfile.h	/^      CANT_ADD_FILE_ENTRY,    \/\/ couldn't register new index file w\/ db$/;"	e	enum:BTreeFile::ErrorTypes
+CANT_ALLOCATE_NEW_PAGE	include/btfile.h	/^      CANT_ALLOCATE_NEW_PAGE, \/\/ bm::newPage failed$/;"	e	enum:BTreeFile::ErrorTypes
+CANT_ALLOCK_BLOCK	include/btfile.h	/^	  CANT_ALLOCK_BLOCK,	  \/\/ buffer manager failed to allocate block for header page$/;"	e	enum:BTreeFile::ErrorTypes
+CANT_ALLOC_HEADER	include/btfile.h	/^      CANT_ALLOC_HEADER,      \/\/ failed to allocate block for header page$/;"	e	enum:BTreeFile::ErrorTypes
+CANT_DELETE_FILE_ENTRY	include/btfile.h	/^      CANT_DELETE_FILE_ENTRY, \/\/ db failed to delete file entry$/;"	e	enum:BTreeFile::ErrorTypes
+CANT_DELETE_SUBTREE	include/btfile.h	/^      CANT_DELETE_SUBTREE,    \/\/ _destroyFile failed on a subtree$/;"	e	enum:BTreeFile::ErrorTypes
+CANT_FIND_HEADER	include/btfile.h	/^      CANT_FIND_HEADER,       \/\/ tried to open index but db said no header$/;"	e	enum:BTreeFile::ErrorTypes
+CANT_FREE_PAGE	include/btfile.h	/^      CANT_FREE_PAGE,         \/\/ buffer manager failed to free a page$/;"	e	enum:BTreeFile::ErrorTypes
+CANT_GET_PAGE_NO	include/btfile.h	/^      CANT_GET_PAGE_NO,       \/\/ get_page_no on BTIndexPage failed$/;"	e	enum:BTreeFile::ErrorTypes
+CANT_PIN_HEADER	include/btfile.h	/^      CANT_PIN_HEADER,        \/\/ buffer manager failed to pin header page$/;"	e	enum:BTreeFile::ErrorTypes
+CANT_PIN_PAGE	include/btfile.h	/^      CANT_PIN_PAGE,          \/\/ can't pin some index\/leaf page$/;"	e	enum:BTreeFile::ErrorTypes
+CANT_SPLIT_INDEX_PAGE	include/btfile.h	/^      CANT_SPLIT_INDEX_PAGE,  \/\/ could not split index page$/;"	e	enum:BTreeFile::ErrorTypes
+CANT_SPLIT_LEAF_PAGE	include/btfile.h	/^      CANT_SPLIT_LEAF_PAGE,   \/\/ could not split leaf page$/;"	e	enum:BTreeFile::ErrorTypes
+CANT_UNPIN_HEADER	include/btfile.h	/^      CANT_UNPIN_HEADER,      \/\/ can't unpin header page$/;"	e	enum:BTreeFile::ErrorTypes
+CANT_UNPIN_PAGE	include/btfile.h	/^      CANT_UNPIN_PAGE,        \/\/ can't unpin some index\/leaf page$/;"	e	enum:BTreeFile::ErrorTypes
+CATALOG	include/new_error.h	/^                          OPTIMIZER, FRONTEND, CATALOG, DBMGR, RAWFILE, LOCKMGR,$/;"	e	enum:Status
+CATALOG_H	include/catalog.h	8;"	d
+CC	src/Makefile	/^CC=g++$/;"	m
+CFLAGS	src/Makefile	/^CFLAGS= -DUNIX -Wall -g$/;"	m
+COPY	include/da_types.h	/^        RANGE, MEM, NULLPTR, SIZE,COPY$/;"	e	enum:ErrorCode
+COULD_NOT_CREATE_ROOT	include/btfile.h	/^      COULD_NOT_CREATE_ROOT,  \/\/ BtreeFile::insert could not create new root$/;"	e	enum:BTreeFile::ErrorTypes
+Clock	include/buf.h	/^class Clock : public Replacer {$/;"	c
+DATA_ENTRY_NOT_FOUND	include/btfile.h	/^      DATA_ENTRY_NOT_FOUND,   \/\/ could not find data entry to delete$/;"	e	enum:BTreeFile::ErrorTypes
+DB	include/db.h	/^class DB$/;"	c
+DB	src/db.C	/^DB::DB( const char* fname, unsigned num_pgs, Status& status )$/;"	f	class:DB
+DB	src/db.C	/^DB::DB(const char* fname, Status& status)$/;"	f	class:DB
+DBMGR	include/new_error.h	/^                          OPTIMIZER, FRONTEND, CATALOG, DBMGR, RAWFILE, LOCKMGR,$/;"	e	enum:Status
+DBSIZE	src/sort_driver.C	17;"	d	file:
+DB_FULL	include/db.h	/^        DB_FULL,$/;"	e	enum:DB::__anon3
+DB_H	include/db.h	2;"	d
+DELETE_CURRENT_FAILED	include/btfile.h	/^      DELETE_CURRENT_FAILED,  \/\/ failed to delete current rid in scan$/;"	e	enum:BTreeFile::ErrorTypes
+DELETE_DATAENTRY_FAILED	include/btfile.h	/^      DELETE_DATAENTRY_FAILED,\/\/ could not delete a data entry$/;"	e	enum:BTreeFile::ErrorTypes
+DELETE_FILE_FAILED	src/sort.C	/^	DELETE_FILE_FAILED,	\/\/ deleteFile failed$/;"	e	enum:sortErrors	file:
+DELETE_REC_FAILED	include/sorted_page.h	/^    DELETE_REC_FAILED,$/;"	e	enum:SortedPage::ErrorTypes
+DISTINCTKEYS	include/catalog.h	39;"	d
+DONE	include/new_error.h	/^              DONE, FAIL,$/;"	e	enum:Status
+DPFIXED	include/btfile.h	/^    const static int DPFIXED =       sizeof(slot_t)$/;"	m	class:BTreeFile
+DPFIXED	include/hfpage.h	/^    static const int DPFIXED =       sizeof(slot_t)$/;"	m	class:HFPage
+DUPLICATE_ENTRY	include/db.h	/^        DUPLICATE_ENTRY,$/;"	e	enum:DB::__anon3
+DataPageInfo	include/heapfile.h	/^struct DataPageInfo {$/;"	s
+Datatype	include/bt.h	/^union Datatype$/;"	u
+Descending	include/minirel.h	/^enum TupleOrder { Ascending, Descending, Random };$/;"	e	enum:TupleOrder
+EMPTY_SLOT	include/hfpage.h	/^const int EMPTY_SLOT   =  -1;$/;"	v
+END_OF_PAGE	include/heapfile.h	/^    END_OF_PAGE,$/;"	e	enum:heapErrCodes
+ErrCodes	src/sortMerge.h	/^	enum ErrCodes 	{$/;"	g	class:sortMerge
+ErrMsgs	src/sortMerge.C	/^static const char* ErrMsgs[] = 	{$/;"	v	file:
+ErrorCode	include/da_types.h	/^enum ErrorCode$/;"	g
+ErrorTypes	include/btfile.h	/^    enum ErrorTypes {$/;"	g	class:BTreeFile
+ErrorTypes	include/btindex_page.h	/^  enum ErrorTypes {$/;"	g	class:BTIndexPage
+ErrorTypes	include/btleaf_page.h	/^  enum ErrorTypes {$/;"	g	class:BTLeafPage
+ErrorTypes	include/sorted_page.h	/^   enum ErrorTypes {$/;"	g	class:SortedPage
+Errors	include/btfile.h	/^    static const char *Errors[NR_ERRORS];$/;"	m	class:BTreeFile
+Errors	include/btindex_page.h	/^   static const char *Errors[INDEXNR_ERRORS];$/;"	m	class:BTIndexPage
+Errors	include/btleaf_page.h	/^  static const char* Errors[LEAFNR_ERRORS];$/;"	m	class:BTLeafPage
+Errors	include/sorted_page.h	/^  static const char* Errors[NR_ERRORS];$/;"	m	class:SortedPage
+Errors	src/btindex_page.C	/^const char* BTIndexPage::Errors[BTIndexPage::INDEXNR_ERRORS] = {$/;"	m	class:BTIndexPage	file:
+Errors	src/btleaf_page.C	/^const char* BTLeafPage::Errors[BTLeafPage::LEAFNR_ERRORS] = {$/;"	m	class:BTLeafPage	file:
+Errors	src/sorted_page.C	/^const char* SortedPage::Errors[SortedPage::NR_ERRORS] = {$/;"	m	class:SortedPage	file:
+ExtendedSystemDefs	include/ext_sys_defs.h	/^class ExtendedSystemDefs : public SystemDefs {$/;"	c
+FAIL	include/new_error.h	/^              DONE, FAIL,$/;"	e	enum:Status
+FALSE	include/da_types.h	21;"	d
+FILEEOF	include/new_error.h	/^              FILEEOF, RECNOTFOUND, RELNOTFOUND, INDEXNOTFOUND,$/;"	e	enum:Status
+FILE_IO_ERROR	include/db.h	/^        FILE_IO_ERROR,$/;"	e	enum:DB::__anon3
+FILE_NAME_TOO_LONG	include/db.h	/^        FILE_NAME_TOO_LONG,$/;"	e	enum:DB::__anon3
+FILE_NOT_FOUND	include/db.h	/^        FILE_NOT_FOUND,$/;"	e	enum:DB::__anon3
+FRAME_EMPTY	include/buf.h	/^    FRAME_EMPTY,$/;"	e	enum:bufErrCodes
+FRONTEND	include/new_error.h	/^                          OPTIMIZER, FRONTEND, CATALOG, DBMGR, RAWFILE, LOCKMGR,$/;"	e	enum:Status
+FULL_DELETE	include/btfile.h	36;"	d
+False	include/da_types.h	9;"	d
+Filetype	include/heapfile.h	/^    enum Filetype {$/;"	g	class:HeapFile
+FrameDesc	include/buf.h	/^    FrameDesc() {$/;"	f	class:FrameDesc
+FrameDesc	include/buf.h	/^class FrameDesc {$/;"	c
+GET_NEXT_FAILED	src/sort.C	/^	GET_NEXT_FAILED,  	\/\/ getNext failed before end of file.$/;"	e	enum:sortErrors	file:
+GRIDFILE	include/new_error.h	/^                          LINEARHASH, GRIDFILE, RTREE, JOINS, PLANNER, PARSER,$/;"	e	enum:Status
+GlobalBufMgr	include/system_defs.h	/^    BufMgr*             GlobalBufMgr;$/;"	m	class:SystemDefs
+GlobalDB	include/system_defs.h	/^    DB*                 GlobalDB;$/;"	m	class:SystemDefs
+GlobalDBName	include/system_defs.h	/^    char*               GlobalDBName;$/;"	m	class:SystemDefs
+GlobalLogName	include/system_defs.h	/^    char*               GlobalLogName;$/;"	m	class:SystemDefs
+GlobalShMemMgr	src/system_defs.C	65;"	d	file:
+HASH_NOT_FOUND	include/buf.h	/^    HASH_NOT_FOUND,$/;"	e	enum:bufErrCodes
+HASH_TBL_ERROR	include/buf.h	/^    HASH_TBL_ERROR,$/;"	e	enum:bufErrCodes
+HEAPFILE	include/new_error.h	/^                          XACTMGR, HEAPFILE, HEAPPAGE, SCAN,$/;"	e	enum:Status
+HEAPFILE_FAILED	src/sortMerge.h	/^		HEAPFILE_FAILED$/;"	e	enum:sortMerge::ErrCodes
+HEAPPAGE	include/new_error.h	/^                          XACTMGR, HEAPFILE, HEAPPAGE, SCAN,$/;"	e	enum:Status
+HFILE_EOF	include/heapfile.h	/^    HFILE_EOF,$/;"	e	enum:heapErrCodes
+HFPage	include/hfpage.h	/^class HFPage {$/;"	c
+Hash	include/minirel.h	/^enum IndexType {None, B_Index, Hash};$/;"	e	enum:IndexType
+HeapFile	include/heapfile.h	/^class HeapFile {$/;"	c
+HeapFile	src/heapfile.C	/^HeapFile::HeapFile( const char *name, Status& returnStatus )$/;"	f	class:HeapFile
+INCLUDES	src/Makefile	/^INCLUDES = -I${MINIBASE}\/include -I.$/;"	m
+INDEX	include/bt.h	/^    INDEX,$/;"	e	enum:__anon2
+INDEXCATNAME	include/catalog.h	33;"	d
+INDEXINSERTRECFAILED	include/btindex_page.h	/^    INDEXINSERTRECFAILED,$/;"	e	enum:BTIndexPage::ErrorTypes
+INDEXNOTFOUND	include/new_error.h	/^              FILEEOF, RECNOTFOUND, RELNOTFOUND, INDEXNOTFOUND,$/;"	e	enum:Status
+INDEXNR_ERRORS	include/btindex_page.h	/^    INDEXNR_ERRORS              \/\/ and this is the number of them$/;"	e	enum:BTIndexPage::ErrorTypes
+INDEXPAGES	include/catalog.h	40;"	d
+INSERT_FAILED	include/btfile.h	/^      INSERT_FAILED,          \/\/ BTreeFile::insert not successful$/;"	e	enum:BTreeFile::ErrorTypes
+INSERT_RECORD_FAILED	src/sort.C	/^	INSERT_RECORD_FAILED,  \/\/ attempted to insert records to heap file$/;"	e	enum:sortErrors	file:
+INSERT_REC_FAILED	include/sorted_page.h	/^    INSERT_REC_FAILED,$/;"	e	enum:SortedPage::ErrorTypes
+INSUFMEM	include/new_error.h	/^              ATTRNOTFOUND, INSUFMEM, NOMORERECS,$/;"	e	enum:Status
+INVALID_PAGE	include/page.h	/^const PageId INVALID_PAGE = -1;$/;"	v
+INVALID_SCAN	include/btfile.h	/^      INVALID_SCAN,           \/\/ attempt to use bad Scan object$/;"	e	enum:BTreeFile::ErrorTypes
+INVALID_SLOT	include/hfpage.h	/^const int INVALID_SLOT =  -1;$/;"	v
+INVALID_SLOTNO	include/heapfile.h	/^    INVALID_SLOTNO,$/;"	e	enum:heapErrCodes
+INVALID_UPDATE	include/heapfile.h	/^    INVALID_UPDATE,$/;"	e	enum:heapErrCodes
+IndexCatalog	include/catalog.h	/^class IndexCatalog : public HeapFile$/;"	c
+IndexDesc	include/catalog.h	/^struct IndexDesc$/;"	s
+IndexFile	include/index.h	/^class IndexFile {$/;"	c
+IndexFileScan	include/index.h	/^class IndexFileScan {$/;"	c
+IndexScanIter	include/index_scan.h	/^class IndexScanIter : public Iterator {$/;"	c
+IndexType	include/minirel.h	/^enum IndexType {None, B_Index, Hash};$/;"	g
+IndexUtils	include/index_scan.h	/^class IndexUtils {$/;"	c
+JOINS	include/new_error.h	/^                          LINEARHASH, GRIDFILE, RTREE, JOINS, PLANNER, PARSER,$/;"	e	enum:Status
+JOIN_COL	src/SMJTester.C	26;"	d	file:
+Jtuple	include/index_scan.h	/^        Tuple    *Jtuple;$/;"	m	class:IndexScanIter
+KEY_TOO_LONG	include/btfile.h	/^      KEY_TOO_LONG,           \/\/ the key given in BTreeFile::insert is too long$/;"	e	enum:BTreeFile::ErrorTypes
+KeyDataEntry	include/bt.h	/^struct KeyDataEntry$/;"	s
+Keytype	include/bt.h	/^union Keytype$/;"	u
+LEAF	include/bt.h	/^    LEAF$/;"	e	enum:__anon2
+LEAFINSERTRECFAILED	include/btleaf_page.h	/^    LEAFINSERTRECFAILED,   \/* these are indices *\/$/;"	e	enum:BTLeafPage::ErrorTypes
+LEAFNR_ERRORS	include/btleaf_page.h	/^    LEAFNR_ERRORS              \/* and this is the number of them *\/$/;"	e	enum:BTLeafPage::ErrorTypes
+LFLAGS	src/Makefile	/^LFLAGS= -L. -lsmjoin -lm$/;"	m
+LINEARHASH	include/new_error.h	/^                          LINEARHASH, GRIDFILE, RTREE, JOINS, PLANNER, PARSER,$/;"	e	enum:Status
+LOCKMGR	include/new_error.h	/^                          OPTIMIZER, FRONTEND, CATALOG, DBMGR, RAWFILE, LOCKMGR,$/;"	e	enum:Status
+LOGMGR	include/new_error.h	/^              BUFMGR, RECOVERYMGR, LOGMGR, SHAREDMEMORYMGR, BTREE,$/;"	e	enum:Status
+LRU	include/lru.h	/^class LRU : public Replacer {$/;"	c
+LogicalOperator	include/minirel.h	/^enum LogicalOperator { lopAND, lopOR, lopNOT };$/;"	g
+MAIN	src/Makefile	/^MAIN=SortMerge$/;"	m
+MAXATTRNAME	include/minirel.h	/^const int MAXATTRNAME = 15;          \/\/$/;"	v
+MAXFILENAME	include/minirel.h	/^const int MAXFILENAME = 15;          \/\/ also the name of a relation$/;"	v
+MAXINDEXNAME	include/minirel.h	/^const int MAXINDEXNAME = 40;         \/\/$/;"	v
+MAXNAME	include/catalog.h	35;"	d
+MAXNUMVAL	include/catalog.h	44;"	d
+MAXSTRINGLEN	include/catalog.h	36;"	d
+MAXSTRINGVAL	include/catalog.h	42;"	d
+MAX_COMMAND_SIZE	src/btree_driver.C	13;"	d	file:
+MAX_KEY_SIZE1	include/bt.h	64;"	d
+MAX_NAME	include/db.h	/^const unsigned MAX_NAME = 50;$/;"	v
+MAX_SPACE	include/page.h	/^const int MAX_SPACE = MINIBASE_PAGESIZE;$/;"	v
+MEM	include/da_types.h	/^        RANGE, MEM, NULLPTR, SIZE,COPY$/;"	e	enum:ErrorCode
+MERGE_MANY_TO_ONE_FAILED	src/sort.C	/^	MERGE_MANY_TO_ONE_FAILED,	$/;"	e	enum:sortErrors	file:
+MERGE_NEG_NUMBER	src/sort.C	/^	MERGE_NEG_NUMBER,	\/\/ tried to merge a negative number of files$/;"	e	enum:sortErrors	file:
+MERGE_ONE	src/sort.C	/^	MERGE_ONE,		\/\/ merge one file -- performance issue.$/;"	e	enum:sortErrors	file:
+MINIBASE	src/Makefile	/^MINIBASE = ..$/;"	m
+MINIBASE_ATTRCAT	include/ext_sys_defs.h	17;"	d
+MINIBASE_BM	include/system_defs.h	70;"	d
+MINIBASE_BUFFER_POOL_SIZE	include/minirel.h	/^const int MINIBASE_BUFFER_POOL_SIZE = 1024;   \/\/ in Frames$/;"	v
+MINIBASE_CATALOGPTR	include/ext_sys_defs.h	16;"	d
+MINIBASE_CHAIN_ERROR	include/new_error.h	333;"	d
+MINIBASE_DB	include/system_defs.h	69;"	d
+MINIBASE_DBNAME	include/system_defs.h	73;"	d
+MINIBASE_DB_SIZE	include/minirel.h	/^const int MINIBASE_DB_SIZE = 10000;           \/* in Pages => the DBMS Manager$/;"	v
+MINIBASE_DEFAULT_SHAREDMEM_SIZE	include/minirel.h	/^const int MINIBASE_DEFAULT_SHAREDMEM_SIZE = 1000;$/;"	v
+MINIBASE_FIRST_ERROR	include/new_error.h	330;"	d
+MINIBASE_INDCAT	include/ext_sys_defs.h	19;"	d
+MINIBASE_MAXARRSIZE	include/system_defs.h	19;"	d
+MINIBASE_MAX_TRANSACTIONS	include/minirel.h	/^const int MINIBASE_MAX_TRANSACTIONS = 100;$/;"	v
+MINIBASE_PAGESIZE	include/minirel.h	/^const int MINIBASE_PAGESIZE = 1024;           \/\/ in bytes$/;"	v
+MINIBASE_RELCAT	include/ext_sys_defs.h	18;"	d
+MINIBASE_RESTART_FLAG	src/main.C	/^int MINIBASE_RESTART_FLAG = 0;$/;"	v
+MINIBASE_RESTART_FLAG	src/sort_driver.C	/^int MINIBASE_RESTART_FLAG = 0;$/;"	v
+MINIBASE_RESULTING_ERROR	include/new_error.h	336;"	d
+MINIBASE_SHMEM	include/system_defs.h	49;"	d
+MINIBASE_SHOW_ERRORS	include/new_error.h	339;"	d
+MINNUMVAL	include/catalog.h	43;"	d
+MINSTRINGVAL	include/catalog.h	41;"	d
+MRU	include/mru.h	/^class MRU : public Replacer {$/;"	c
+NAIVE_DELETE	include/btfile.h	35;"	d
+NEG_RUN_SIZE	include/db.h	/^        NEG_RUN_SIZE$/;"	e	enum:DB::__anon3
+NOMORERECS	include/new_error.h	/^              ATTRNOTFOUND, INSUFMEM, NOMORERECS,$/;"	e	enum:Status
+NO_RECORDS	include/heapfile.h	/^    NO_RECORDS,$/;"	e	enum:heapErrCodes
+NO_SPACE	include/heapfile.h	/^    NO_SPACE,$/;"	e	enum:heapErrCodes
+NR_ERRORS	include/btfile.h	/^      NR_ERRORS               \/\/ and this is the number of them$/;"	e	enum:BTreeFile::ErrorTypes
+NR_ERRORS	include/sorted_page.h	/^    NR_ERRORS              \/* and this is the number of them *\/$/;"	e	enum:SortedPage::ErrorTypes
+NULL	include/da_types.h	26;"	d
+NULLPTR	include/da_types.h	/^        RANGE, MEM, NULLPTR, SIZE,COPY$/;"	e	enum:ErrorCode
+NUMBUF	include/buf.h	8;"	d
+NUMFILES	src/SMJTester.C	24;"	d	file:
+NUMPAGESFILE	include/catalog.h	38;"	d
+NUMTUPLESFILE	include/catalog.h	37;"	d
+NUM_COLS	src/SMJTester.C	25;"	d	file:
+NUM_RECORDS	src/sort_driver.C	18;"	d	file:
+NUM_STATUS_CODES	include/new_error.h	/^              NUM_STATUS_CODES };$/;"	e	enum:Status
+NewScan	include/index.h	/^  NewScan,$/;"	e	enum:__anon1
+None	include/minirel.h	/^enum IndexType {None, B_Index, Hash};$/;"	e	enum:IndexType
+OBJS	src/Makefile	/^OBJS = $(SRCS:.C=.o)$/;"	m
+OK	include/new_error.h	/^enum Status { OK,$/;"	e	enum:Status
+ONE_MERGE_PASS_FAILED	src/sort.C	/^	ONE_MERGE_PASS_FAILED,$/;"	e	enum:sortErrors	file:
+OPEN_HPFILE_FAILED	src/sort.C	/^enum sortErrors { OPEN_HPFILE_FAILED, 	\/\/ open heap file for read or write.$/;"	e	enum:sortErrors	file:
+OPEN_SCAN_FAILED	src/sort.C	/^	OPEN_SCAN_FAILED, 	\/\/ open scanner object fail$/;"	e	enum:sortErrors	file:
+OPTIMIZER	include/new_error.h	/^                          OPTIMIZER, FRONTEND, CATALOG, DBMGR, RAWFILE, LOCKMGR,$/;"	e	enum:Status
+ORDINARY	include/heapfile.h	/^        ORDINARY$/;"	e	enum:HeapFile::Filetype
+PAGESIZE	src/sort.h	8;"	d
+PAGE_NOT_FOUND	include/buf.h	/^    PAGE_NOT_FOUND,$/;"	e	enum:bufErrCodes
+PAGE_NOT_PINNED	include/buf.h	/^    PAGE_NOT_PINNED,$/;"	e	enum:bufErrCodes
+PAGE_PINNED	include/buf.h	/^    PAGE_PINNED,$/;"	e	enum:bufErrCodes
+PARSER	include/new_error.h	/^                          LINEARHASH, GRIDFILE, RTREE, JOINS, PLANNER, PARSER,$/;"	e	enum:Status
+PASS_ZERO_FAILED	src/sort.C	/^	PASS_ZERO_FAILED };  	$/;"	e	enum:sortErrors	file:
+PLANNER	include/new_error.h	/^                          LINEARHASH, GRIDFILE, RTREE, JOINS, PLANNER, PARSER,$/;"	e	enum:Status
+Page	include/page.h	/^class Page {$/;"	c
+Page	src/page.C	/^Page::Page()$/;"	f	class:Page
+PageId	include/minirel.h	/^typedef int PageId;$/;"	t
+Pinned	include/buf.h	/^    enum STATE {Available, Referenced, Pinned};$/;"	e	enum:Replacer::STATE
+RANGE	include/da_types.h	/^        RANGE, MEM, NULLPTR, SIZE,COPY$/;"	e	enum:ErrorCode
+RAWFILE	include/new_error.h	/^                          OPTIMIZER, FRONTEND, CATALOG, DBMGR, RAWFILE, LOCKMGR,$/;"	e	enum:Status
+RECNOTFOUND	include/new_error.h	/^              FILEEOF, RECNOTFOUND, RELNOTFOUND, INDEXNOTFOUND,$/;"	e	enum:Status
+RECOVERYMGR	include/new_error.h	/^              BUFMGR, RECOVERYMGR, LOGMGR, SHAREDMEMORYMGR, BTREE,$/;"	e	enum:Status
+REC_LEN1	src/sort_driver.C	19;"	d	file:
+REC_LEN2	src/sort_driver.C	20;"	d	file:
+RELCATNAME	include/catalog.h	31;"	d
+RELNAME	include/catalog.h	34;"	d
+RELNOTFOUND	include/new_error.h	/^              FILEEOF, RECNOTFOUND, RELNOTFOUND, INDEXNOTFOUND,$/;"	e	enum:Status
+REPLACER	include/buf.h	14;"	d
+REPLACER_ERROR	include/buf.h	/^    REPLACER_ERROR,$/;"	e	enum:bufErrCodes
+RID	include/minirel.h	/^typedef struct RID{$/;"	s
+RID	include/minirel.h	/^} RID;$/;"	t	typeref:struct:RID
+RTREE	include/new_error.h	/^                          LINEARHASH, GRIDFILE, RTREE, JOINS, PLANNER, PARSER,$/;"	e	enum:Status
+Random	include/minirel.h	/^enum TupleOrder { Ascending, Descending, Random };$/;"	e	enum:TupleOrder
+Referenced	include/buf.h	/^    enum STATE {Available, Referenced, Pinned};$/;"	e	enum:Replacer::STATE
+RelCatalog	include/catalog.h	/^class RelCatalog : public HeapFile$/;"	c
+RelDesc	include/catalog.h	/^struct RelDesc$/;"	s
+Replacer	include/buf.h	/^class Replacer {$/;"	c
+SCAN	include/new_error.h	/^                          XACTMGR, HEAPFILE, HEAPPAGE, SCAN,$/;"	e	enum:Status
+SHAREDMEMORYMGR	include/new_error.h	/^              BUFMGR, RECOVERYMGR, LOGMGR, SHAREDMEMORYMGR, BTREE,$/;"	e	enum:Status
+SIZE	include/da_types.h	/^        RANGE, MEM, NULLPTR, SIZE,COPY$/;"	e	enum:ErrorCode
+SMJTester	src/SMJTester.C	/^SMJTester::SMJTester() : TestDriver( "SortMergeJoinTest" )$/;"	f	class:SMJTester
+SMJTester	src/SMJTester.h	/^class SMJTester : public TestDriver$/;"	c
+SORTEDPAGE	include/new_error.h	/^                          SORTEDPAGE, BTINDEXPAGE, BTLEAFPAGE,$/;"	e	enum:Status
+SORTED_PAGE_H	include/sorted_page.h	9;"	d
+SORTPGNUM	src/SMJTester.C	23;"	d	file:
+SORTPGNUM	src/sort_driver.C	21;"	d	file:
+SORT_FAILED	src/sortMerge.h	/^		SORT_FAILED,$/;"	e	enum:sortMerge::ErrCodes
+SRCS	src/Makefile	/^SRCS =test_driver.C SMJTester.C main.C sortMerge.C sort.C scan.C btindex_page.C btleaf_page.C btreefilescan.C db.C heapfile.C key.C new_error.C page.C sorted_page.C system_defs.C$/;"	m
+STATE	include/buf.h	/^    enum STATE {Available, Referenced, Pinned};$/;"	g	class:Replacer
+Scan	include/scan.h	/^class Scan {$/;"	c
+Scan	src/scan.C	/^Scan::Scan (HeapFile *hf, Status& status)$/;"	f	class:Scan
+ScanComplete	include/index.h	/^  ScanComplete$/;"	e	enum:__anon1
+ScanRunning	include/index.h	/^  ScanRunning,$/;"	e	enum:__anon1
+ScanState	include/index.h	/^} ScanState;$/;"	t	typeref:enum:__anon1
+SelectType	include/minirel.h	/^enum SelectType { selRange, selExact, selBoth, selUndefined };$/;"	g
+Sort	src/sort.C	/^Sort::Sort( char*		inFile,		\/\/ Name of unsorted heapfile.$/;"	f	class:Sort
+Sort	src/sort.h	/^class Sort$/;"	c
+SortedPage	include/sorted_page.h	/^class SortedPage : public HFPage {$/;"	c
+Status	include/new_error.h	/^enum Status { OK,$/;"	g
+SystemDefs	include/system_defs.h	/^class SystemDefs$/;"	c
+SystemDefs	src/system_defs.C	/^SystemDefs::SystemDefs( Status& status, const char* dbname, const char* logname,$/;"	f	class:SystemDefs
+SystemDefs	src/system_defs.C	/^SystemDefs::SystemDefs( Status& status, const char* dbname, unsigned num_pgs,$/;"	f	class:SystemDefs
+TEMP	include/heapfile.h	/^        TEMP,$/;"	e	enum:HeapFile::Filetype
+TRUE	include/da_types.h	17;"	d
+TUPLE_HDR	include/tuple.h	2;"	d
+TUPLE_TOOBIG_ERR	include/tuple.h	/^    TUPLE_TOOBIG_ERR,$/;"	e	enum:tupleErrCodes
+TUPLE_TOO_BIG	include/new_error.h	/^              TUPLE_TOO_BIG, TUPLE_TYPE,$/;"	e	enum:Status
+TUPLE_TYPE	include/new_error.h	/^              TUPLE_TOO_BIG, TUPLE_TYPE,$/;"	e	enum:Status
+TUPLE_TYPE_ERR	include/tuple.h	/^    TUPLE_TYPE_ERR,$/;"	e	enum:tupleErrCodes
+TestDriver	src/test_driver.C	/^TestDriver::TestDriver( const char* nameRoot )$/;"	f	class:TestDriver
+TestDriver	src/test_driver.h	/^class TestDriver$/;"	c
+Trace	include/btfile.h	/^    static ostream *Trace;   \/\/ Set this to your stream to get a trace.$/;"	m	class:BTreeFile
+True	include/da_types.h	13;"	d
+Tuple	include/tuple.h	/^    Tuple(){cerr << "Tuple constructor should never be called! \\n";};$/;"	f	class:Tuple
+Tuple	include/tuple.h	/^class Tuple {$/;"	c
+TupleOrder	include/minirel.h	/^enum TupleOrder { Ascending, Descending, Random };$/;"	g
+UNIX_ERROR	include/db.h	/^        UNIX_ERROR,$/;"	e	enum:DB::__anon3
+XACTMGR	include/new_error.h	/^                          XACTMGR, HEAPFILE, HEAPPAGE, SCAN,$/;"	e	enum:Status
+_BTFILE_H	include/btfile.h	9;"	d
+_BTREE_FILESCAN_H	include/btreefilescan.h	9;"	d
+_BUF_H	include/buf.h	3;"	d
+_EXT_SYS_DEFS_H	include/ext_sys_defs.h	3;"	d
+_HEAPFILE_H	include/heapfile.h	7;"	d
+_HFPAGE_H	include/hfpage.h	3;"	d
+_INDEX_H	include/index.h	2;"	d
+_LRU_	include/lru.h	2;"	d
+_MINIREL_H	include/minirel.h	4;"	d
+_MRU_	include/mru.h	2;"	d
+_NEW_ERROR_H	include/new_error.h	2;"	d
+_OK	include/btfile.h	/^      _OK = 0,                \/\/ 0 is always OK$/;"	e	enum:BTreeFile::ErrorTypes
+_OK	include/btindex_page.h	/^    _OK = 0,$/;"	e	enum:BTIndexPage::ErrorTypes
+_OK	include/btleaf_page.h	/^    _OK = 0,$/;"	e	enum:BTLeafPage::ErrorTypes
+_OK	include/sorted_page.h	/^    _OK = 0,   \/* these are indices *\/$/;"	e	enum:SortedPage::ErrorTypes
+_PAGE_H	include/page.h	7;"	d
+_SCAN_H_	include/scan.h	11;"	d
+_SMJTESTER_H_	src/SMJTester.h	3;"	d
+_SYSTEM_DEFS_H	include/system_defs.h	3;"	d
+_TEST_DRIVER_H_	src/test_driver.h	5;"	d
+__INDEX_SCAN__	include/index_scan.h	2;"	d
+__SORT_MERGE_	src/sortMerge.h	2;"	d
+__SORT__	src/sort.h	2;"	d
+_amt_of_buf	src/sort.h	/^    int _amt_of_buf;$/;"	m	class:Sort
+_fileName	include/heapfile.h	/^    char       *_fileName;$/;"	m	class:HeapFile
+_file_deleted	include/heapfile.h	/^    bool        _file_deleted;$/;"	m	class:HeapFile
+_firstPageId	include/heapfile.h	/^    PageId      _firstPageId;    \/\/ page number of header page$/;"	m	class:HeapFile
+_fldNum	include/index_scan.h	/^        int _fldNum;       \/\/ added by BK$/;"	m	class:IndexScanIter
+_fld_no	src/sort.h	/^    int _fld_no;$/;"	m	class:Sort
+_ftype	include/heapfile.h	/^    Filetype    _ftype;$/;"	m	class:HeapFile
+_hf	include/scan.h	/^    HeapFile  *_hf;$/;"	m	class:Scan
+_in_file	src/sort.h	/^    char* _in_file;$/;"	m	class:Sort
+_merge	src/sort.C	/^Status Sort::_merge(int numFiles){$/;"	f	class:Sort
+_merge_many_to_one	src/sort.C	/^Status Sort::_merge_many_to_one(unsigned int number, $/;"	f	class:Sort
+_noInFlds	include/index_scan.h	/^        int _noInFlds;$/;"	m	class:IndexScanIter
+_noOutFlds	include/index_scan.h	/^        int _noOutFlds;$/;"	m	class:IndexScanIter
+_one_later_pass	src/sort.C	/^Status Sort::_one_later_pass(int numberTempFiles, int passNum, int &numberDest){$/;"	f	class:Sort
+_out_file	src/sort.h	/^    char* _out_file;$/;"	m	class:Sort
+_pass_one	src/sort.C	/^Status Sort::_pass_one(int& num_temp_file)$/;"	f	class:Sort
+_rec	src/SMJTester.C	/^struct _rec {$/;"	s	file:
+_rec_length	src/sort.h	/^    int _rec_length;$/;"	m	class:Sort
+_selects	include/index_scan.h	/^        CondExpr** _selects;$/;"	m	class:IndexScanIter
+_sort_order	src/sort.h	/^    TupleOrder _sort_order;$/;"	m	class:Sort
+_str_sizes	src/sort.h	/^    short* _str_sizes;$/;"	m	class:Sort
+_temp_name	src/sort.C	/^char* Sort::_temp_name(int pass, int run, char* file_name)$/;"	f	class:Sort
+_types	include/index_scan.h	/^        AttrType* _types;$/;"	m	class:IndexScanIter
+accessType	include/catalog.h	/^    IndexType  accessType;                \/\/ access method $/;"	m	struct:IndexDesc
+add_error	include/new_error.h	/^    Status add_error( Status subsystem, const char* msg )$/;"	f	class:global_errors
+add_error	include/new_error.h	/^    Status add_error( Status subsystem, int lineno,$/;"	f	class:global_errors
+add_error	src/new_error.C	/^Status global_errors::add_error( Status subsystem, Status priorStatus,$/;"	f	class:global_errors
+add_error	src/new_error.C	/^Status global_errors::add_error( error_node* next )$/;"	f	class:global_errors
+add_file_entry	src/db.C	/^Status DB::add_file_entry(const char* fname, PageId start_page_num)$/;"	f	class:DB
+adjust_key	src/btindex_page.C	/^Status BTIndexPage::adjust_key(const void *newKey, const void *oldKey,$/;"	f	class:BTIndexPage
+allocate_page	src/db.C	/^Status DB::allocate_page(PageId& start_page_num, int run_size_int)$/;"	f	class:DB
+aopEQ	include/minirel.h	/^        aopEQ, aopLT, aopGT, aopNE, aopLE, aopGE, aopNOT, aopNOP, aopRANGE };$/;"	e	enum:AttrOperator
+aopGE	include/minirel.h	/^        aopEQ, aopLT, aopGT, aopNE, aopLE, aopGE, aopNOT, aopNOP, aopRANGE };$/;"	e	enum:AttrOperator
+aopGT	include/minirel.h	/^        aopEQ, aopLT, aopGT, aopNE, aopLE, aopGE, aopNOT, aopNOP, aopRANGE };$/;"	e	enum:AttrOperator
+aopLE	include/minirel.h	/^        aopEQ, aopLT, aopGT, aopNE, aopLE, aopGE, aopNOT, aopNOP, aopRANGE };$/;"	e	enum:AttrOperator
+aopLT	include/minirel.h	/^        aopEQ, aopLT, aopGT, aopNE, aopLE, aopGE, aopNOT, aopNOP, aopRANGE };$/;"	e	enum:AttrOperator
+aopNE	include/minirel.h	/^        aopEQ, aopLT, aopGT, aopNE, aopLE, aopGE, aopNOT, aopNOP, aopRANGE };$/;"	e	enum:AttrOperator
+aopNOP	include/minirel.h	/^        aopEQ, aopLT, aopGT, aopNE, aopLE, aopGE, aopNOT, aopNOP, aopRANGE };$/;"	e	enum:AttrOperator
+aopNOT	include/minirel.h	/^        aopEQ, aopLT, aopGT, aopNE, aopLE, aopGE, aopNOT, aopNOP, aopRANGE };$/;"	e	enum:AttrOperator
+aopRANGE	include/minirel.h	/^        aopEQ, aopLT, aopGT, aopNE, aopLE, aopGE, aopNOT, aopNOP, aopRANGE };$/;"	e	enum:AttrOperator
+attrCnt	include/catalog.h	/^    int  attrCnt;                 \/\/ number of attributes$/;"	m	struct:RelDesc
+attrData	include/catalog.h	/^struct attrData$/;"	s
+attrInfo	include/catalog.h	/^struct attrInfo$/;"	s
+attrInteger	include/minirel.h	/^enum AttrType { attrString, attrInteger, attrReal,  attrSymbol, attrNull };$/;"	e	enum:AttrType
+attrLen	include/catalog.h	/^    int      attrLen;                     \/\/ attribute length$/;"	m	struct:AttrDesc
+attrLen	include/catalog.h	/^    int      attrLen;                 \/\/ length$/;"	m	struct:attrInfo
+attrName	include/catalog.h	/^    char       attrName[MAXNAME];         \/\/ attribute name$/;"	m	struct:IndexDesc
+attrName	include/catalog.h	/^    char     attrName[MAXNAME];           \/\/ attribute name$/;"	m	struct:AttrDesc
+attrName	include/catalog.h	/^    char     attrName[MAXNAME];       \/\/ attribute name$/;"	m	struct:attrInfo
+attrNull	include/minirel.h	/^enum AttrType { attrString, attrInteger, attrReal,  attrSymbol, attrNull };$/;"	e	enum:AttrType
+attrOffset	include/catalog.h	/^    int      attrOffset;                  \/\/ attribute offset$/;"	m	struct:AttrDesc
+attrPos	include/catalog.h	/^    int      attrPos;                     \/\/ attribute position $/;"	m	struct:AttrDesc
+attrReal	include/minirel.h	/^enum AttrType { attrString, attrInteger, attrReal,  attrSymbol, attrNull };$/;"	e	enum:AttrType
+attrSize	src/SMJTester.C	/^short		attrSize[] = { 4, 4 };$/;"	v
+attrString	include/minirel.h	/^enum AttrType { attrString, attrInteger, attrReal,  attrSymbol, attrNull };$/;"	e	enum:AttrType
+attrSymbol	include/minirel.h	/^enum AttrType { attrString, attrInteger, attrReal,  attrSymbol, attrNull };$/;"	e	enum:AttrType
+attrType	include/catalog.h	/^    AttrType attrType;                    \/\/ attribute type$/;"	m	struct:AttrDesc
+attrType	include/catalog.h	/^    AttrType attrType;                \/\/ INTEGER, FLOAT, or STRING$/;"	m	struct:attrInfo
+attrType	src/SMJTester.C	/^AttrType 	attrType[] = { attrInteger, attrString };$/;"	v
+attrs	include/catalog.h	/^    AttrType *attrs;$/;"	m	class:AttrCatalog
+attrs	include/catalog.h	/^    AttrType *attrs;$/;"	m	class:IndexCatalog
+attrs	include/catalog.h	/^    AttrType *attrs;$/;"	m	class:RelCatalog
+bits_per_page	src/db.C	/^static const int bits_per_page = MAX_SPACE * 8;$/;"	v	file:
+bufErrCodes	include/buf.h	/^enum bufErrCodes  {$/;"	g
+bufPool	include/buf.h	/^    Page           *bufPool;    \/\/ [numBuffers]; physical buffer pool$/;"	m	class:BufMgr
+charkey	include/bt.h	/^  char charkey[MAX_KEY_SIZE1];$/;"	m	union:Keytype
+clear_errors	src/new_error.C	/^void global_errors::clear_errors()$/;"	f	class:global_errors
+clustered	include/catalog.h	/^    int        clustered;                 \/\/  $/;"	m	struct:IndexDesc
+createFiles	src/SMJTester.C	/^void createFiles()$/;"	f
+curPage	include/hfpage.h	/^    PageId    curPage;     \/\/ page number of this page$/;"	m	class:HFPage
+curRid	include/btreefilescan.h	/^    RID curRid;                 \/\/ position in current leaf; note: this is$/;"	m	class:BTreeFileScan
+da_types_h	include/da_types.h	6;"	d
+data	include/bt.h	/^  Datatype   data;$/;"	m	struct:KeyDataEntry
+data	include/hfpage.h	/^    char      data[MAX_SPACE - DPFIXED]; $/;"	m	class:HFPage
+data	include/page.h	/^    char data[MAX_SPACE];$/;"	m	class:Page
+data	src/SMJTester.C	/^int*		data[] = { data0, data1, data2, data3, data4 };$/;"	v
+data0	src/SMJTester.C	/^int 		data0[] =  { 99,6,1,9,1,20,20,5,6,5,20,100,14,7,13,13 };$/;"	v
+data1	src/SMJTester.C	/^int 		data1[] =  { 10,1,1,99,18,6,10,10,13,12 };$/;"	v
+data1	src/sort_driver.C	/^char*	data1[NUM_RECORDS] = {$/;"	v
+data2	src/SMJTester.C	/^int 		data2[] =  { 20, 56, 9, 78, 10, 7 };$/;"	v
+data2	src/sort_driver.C	/^char*	data2[NUM_RECORDS] = {$/;"	v
+data3	src/SMJTester.C	/^int 		data3[] =  { 99,13,10,12,8,10,11,13,20,13,66 };$/;"	v
+data4	src/SMJTester.C	/^int 		data4[] =  { 2,2,2,13,77,5,11,2 };$/;"	v
+datapage	include/scan.h	/^    HFPage *datapage;$/;"	m	class:Scan
+datapageId	include/scan.h	/^    PageId datapageId;$/;"	m	class:Scan
+datapageRid	include/scan.h	/^    RID datapageRid;$/;"	m	class:Scan
+dbErrMsgs	src/db.C	/^static const char* dbErrMsgs[] = {$/;"	v	file:
+db_destroy	src/db.C	/^Status DB::db_destroy()$/;"	f	class:DB
+db_name	src/db.C	/^const char* DB::db_name() const$/;"	f	class:DB
+db_num_pages	src/db.C	/^int DB::db_num_pages() const$/;"	f	class:DB
+db_page_size	src/db.C	/^int DB::db_page_size() const$/;"	f	class:DB
+dbname	include/btfile.h	/^    char            *dbname;       \/\/ copied from arg of the ctor.$/;"	m	class:BTreeFile
+dbpath	src/test_driver.h	/^    char* dbpath;$/;"	m	class:TestDriver
+deallocate_page	src/db.C	/^Status DB::deallocate_page(PageId start_page_num, int run_size)$/;"	f	class:DB
+delUserRid	src/btleaf_page.C	/^bool BTLeafPage::delUserRid (const void *key, AttrType key_type,$/;"	f	class:BTLeafPage
+deleteFile	src/heapfile.C	/^Status HeapFile::deleteFile()$/;"	f	class:HeapFile
+deleteKey	src/btindex_page.C	/^Status BTIndexPage::deleteKey (const void *key, AttrType key_type, RID& curRid)$/;"	f	class:BTIndexPage
+deleteRecord	src/heapfile.C	/^Status HeapFile::deleteRecord (const RID& rid)$/;"	f	class:HeapFile
+deleteRecord	src/sorted_page.C	/^Status SortedPage::deleteRecord (const RID& rid)$/;"	f	class:SortedPage
+delete_current	src/btreefilescan.C	/^Status BTreeFileScan::delete_current ()$/;"	f	class:BTreeFileScan
+delete_fashion	include/btfile.h	/^        int delete_fashion;  \/\/ naive delete algorithm or full delete algorithm$/;"	m	struct:BTreeFile::BTreeHeaderPage
+delete_file_entry	src/db.C	/^Status DB::delete_file_entry(const char* fname)$/;"	f	class:DB
+deletedcurrent	include/btreefilescan.h	/^    bool deletedcurrent;        \/\/ true after delete_current is called (read$/;"	m	class:BTreeFileScan
+didfirst	include/btreefilescan.h	/^    bool didfirst;              \/\/ false only before get_next is called$/;"	m	class:BTreeFileScan
+dir	include/db.h	/^        directory_page dir;     \/\/ The first page's directory starts here.$/;"	m	struct:DB::first_page
+directory_page	include/db.h	/^    struct directory_page$/;"	s	class:DB
+dirpage	include/scan.h	/^    HFPage *dirpage;$/;"	m	class:Scan
+dirpageId	include/scan.h	/^    PageId dirpageId;$/;"	m	class:Scan
+distinctKeys	include/catalog.h	/^    int        distinctKeys;              \/\/ no of distinct key values $/;"	m	struct:IndexDesc
+dsize	src/SMJTester.C	/^int			dsize[] = { 16,10,6,11,8};$/;"	v
+dummy	src/btree_driver.C	/^struct dummy {$/;"	s	file:
+dump_space_map	src/db.C	/^Status DB::dump_space_map()$/;"	f	class:DB
+endkey	include/btreefilescan.h	/^    const void *endkey;         \/\/ if 0, then go all the way right$/;"	m	class:BTreeFileScan
+entries	include/db.h	/^        file_entry entries[0];  \/\/ Variable-sized struct$/;"	m	struct:DB::directory_page
+error	include/new_error.h	/^    const error_node* error()$/;"	f	class:global_errors
+error_index	include/new_error.h	/^    int error_index()$/;"	f	class:global_errors
+error_index	include/new_error.h	/^    int error_index;            \/\/ Index into subsystem's error messages, or -1.$/;"	m	class:error_node
+error_node	include/new_error.h	/^class error_node$/;"	c
+error_node	src/new_error.C	/^error_node::error_node( Status subsys, Status prior, int err_index,$/;"	f	class:error_node
+error_string_table	include/new_error.h	/^    error_string_table( Status subsystem, const char* messages[] )$/;"	f	class:error_string_table
+error_string_table	include/new_error.h	/^class error_string_table$/;"	c
+eval1	src/btree_driver.C	/^int eval1(const void *first, const void *second)$/;"	f
+eval2	src/btree_driver.C	/^int eval2(const void *first, const void *second)$/;"	f
+f	include/index_scan.h	/^        HeapFile *f;$/;"	m	class:IndexScanIter
+fd	include/db.h	/^    int fd;$/;"	m	class:DB
+file_entry	include/db.h	/^    struct file_entry$/;"	s	class:DB
+files	src/SMJTester.C	/^char*		files[] = { "file0", "file1", "file2", "file3", "file4" };$/;"	v
+fill_entry_data	src/key.C	/^static void fill_entry_data(char *target,$/;"	f	file:
+fill_entry_key	src/key.C	/^static void fill_entry_key(Keytype *target,$/;"	f	file:
+filler	include/heapfile.h	/^	char	filler[4];$/;"	m	struct:DataPageInfo
+filler	src/SMJTester.C	/^	char	filler[4];$/;"	m	struct:_rec	file:
+findKey	src/btindex_page.C	/^Status BTIndexPage::findKey(void *key, void *entry, AttrType key_type)$/;"	f	class:BTIndexPage
+first	include/new_error.h	/^    error_node* first;$/;"	m	class:global_errors
+firstDataPage	src/scan.C	/^Status Scan::firstDataPage()$/;"	f	class:Scan
+first_page	include/db.h	/^    struct first_page$/;"	s	class:DB
+fldCnt	include/tuple.h	/^    short fldCnt;                      \/\/ Number of fields in this tuple$/;"	m	class:Tuple
+fldOffset	include/tuple.h	/^    short fldOffset[1];                \/\/ Array of offsets of the fields$/;"	m	class:Tuple
+floatVal	include/catalog.h	/^    float floatVal;$/;"	m	struct:attrData
+fname	include/db.h	/^        char   fname[MAX_NAME];$/;"	m	struct:DB::file_entry
+frameTable	include/buf.h	/^    FrameDesc *frameTable() { return frmeTable; }$/;"	f	class:BufMgr
+frames	include/lru.h	/^    unsigned* frames;$/;"	m	class:LRU
+frames	include/mru.h	/^    int* frames;$/;"	m	class:MRU
+freePtr	include/hfpage.h	/^    short     freePtr;     \/\/ offset of first used byte in data[]$/;"	m	class:HFPage
+freeSpace	include/hfpage.h	/^    short     freeSpace;   \/\/ number of bytes free in data[]$/;"	m	class:HFPage
+free_space	include/sorted_page.h	/^  int     free_space() { return available_space();}$/;"	f	class:SortedPage
+frmeTable	include/buf.h	/^    FrameDesc      *frmeTable;  \/\/ [numBuffers]$/;"	m	class:BufMgr
+getFld	include/tuple.h	/^    char* getFld(int fldNo){    \/\/ Just return a char* pointer to the data$/;"	f	class:Tuple
+getFld	include/tuple.h	/^    char* getFld(int fldNo, char*& val){ \/\/Convert this field into string        $/;"	f	class:Tuple
+getFld	include/tuple.h	/^    float getFld(int fldNo, float& val){ \/\/ Convert this field into float        $/;"	f	class:Tuple
+getFld	include/tuple.h	/^    int getFld(int fldNo, int& val){   \/\/ Convert this field into integer        $/;"	f	class:Tuple
+getLeftLink	include/btindex_page.h	/^   PageId getLeftLink(void) { return getPrevPage(); }$/;"	f	class:BTIndexPage
+getNext	src/scan.C	/^Status Scan::getNext(RID& rid, char *recPtr, int& recLen)$/;"	f	class:Scan
+getNumBuffers	include/buf.h	/^    unsigned int getNumBuffers() const { return numBuffers; }$/;"	f	class:BufMgr
+getRecCnt	src/heapfile.C	/^int HeapFile::getRecCnt()$/;"	f	class:HeapFile
+getRecord	src/heapfile.C	/^Status HeapFile::getRecord (const RID& rid, char *recPtr, int& recLen)$/;"	f	class:HeapFile
+get_current	src/btleaf_page.C	/^Status BTLeafPage::get_current (RID rid,$/;"	f	class:BTLeafPage
+get_data_rid	src/btleaf_page.C	/^Status BTLeafPage::get_data_rid(const void *key,$/;"	f	class:BTLeafPage
+get_error_index	include/new_error.h	/^    int get_error_index() const         { return error_index; }$/;"	f	class:error_node
+get_extra_message	include/new_error.h	/^    const char* get_extra_message() const { return msg; }$/;"	f	class:error_node
+get_file_entry	src/db.C	/^Status DB::get_file_entry(const char* fname, PageId& start_page)$/;"	f	class:DB
+get_first	src/btindex_page.C	/^Status BTIndexPage::get_first(RID& rid,$/;"	f	class:BTIndexPage
+get_first	src/btleaf_page.C	/^Status BTLeafPage::get_first (RID& rid,$/;"	f	class:BTLeafPage
+get_key_data	src/key.C	/^void get_key_data(void *targetkey, Datatype *targetdata,$/;"	f
+get_key_data_length	src/key.C	/^int get_key_data_length(const void *key, const AttrType key_type,$/;"	f
+get_key_length	src/key.C	/^int get_key_length(const void *key, const AttrType key_type)$/;"	f
+get_message	include/new_error.h	/^    const char* get_message() const$/;"	f	class:error_node
+get_message	src/new_error.C	/^const char* error_string_table::get_message( Status subsystem, int index )$/;"	f	class:error_string_table
+get_next	include/new_error.h	/^    const error_node* get_next() const  { return next_node; }$/;"	f	class:error_node
+get_next	src/btindex_page.C	/^Status BTIndexPage::get_next(RID& rid, void *key, PageId & pageNo)$/;"	f	class:BTIndexPage
+get_next	src/btleaf_page.C	/^Status BTLeafPage::get_next (RID& rid,$/;"	f	class:BTLeafPage
+get_next	src/btreefilescan.C	/^Status BTreeFileScan::get_next (RID & rid, void* keyptr)$/;"	f	class:BTreeFileScan
+get_page_no	src/btindex_page.C	/^Status BTIndexPage::get_page_no(const void *key,$/;"	f	class:BTIndexPage
+get_prior_status	include/new_error.h	/^    Status get_prior_status() const     { return prior_status; }$/;"	f	class:error_node
+get_sibling	src/btindex_page.C	/^bool BTIndexPage::get_sibling(const void *key, AttrType key_type,$/;"	f	class:BTIndexPage
+get_status	include/new_error.h	/^    Status get_status() const           { return subsystem; }$/;"	f	class:error_node
+get_type	include/sorted_page.h	/^  short get_type()         { return type; }$/;"	f	class:SortedPage
+global_errors	include/new_error.h	/^class global_errors$/;"	c
+global_errors	src/new_error.C	/^global_errors::global_errors()$/;"	f	class:global_errors
+head	include/buf.h	/^    int         head;           \/\/ Clock hand.$/;"	m	class:Replacer
+headerPage	include/btfile.h	/^    BTreeHeaderPage *headerPage;   \/\/ (header page)$/;"	m	class:BTreeFile
+headerPageId	include/btfile.h	/^    PageId           headerPageId; \/\/ page number of header page$/;"	m	class:BTreeFile
+heapErrCodes	include/heapfile.h	/^enum heapErrCodes {$/;"	g
+hfErrMsgs	src/heapfile.C	/^static const char *hfErrMsgs[] = {$/;"	v	file:
+indFile	include/index_scan.h	/^        IndexFile*     indFile;$/;"	m	class:IndexScanIter
+indScan	include/index_scan.h	/^        IndexFileScan* indScan;$/;"	m	class:IndexScanIter
+indexCnt	include/catalog.h	/^    int      indexCnt;                    \/\/ number of indexes$/;"	m	struct:AttrDesc
+indexCnt	include/catalog.h	/^    int  indexCnt;                \/\/ number of indexed attrs$/;"	m	struct:RelDesc
+indexPages	include/catalog.h	/^    int        indexPages;                \/\/ no of index pages $/;"	m	struct:IndexDesc
+index_only	include/index_scan.h	/^        int index_only;    \/\/ added by BK$/;"	m	class:IndexScanIter
+init	include/btindex_page.h	/^   void init(PageId pageNo) {$/;"	f	class:BTIndexPage
+init	include/btleaf_page.h	/^   void init(PageId pageNo)$/;"	f	class:BTLeafPage
+init	src/scan.C	/^Status Scan::init(HeapFile *hf)$/;"	f	class:Scan
+init	src/system_defs.C	/^void SystemDefs::init( Status& status, const char* dbname, const char* logname,$/;"	f	class:SystemDefs
+init_dir_page	src/db.C	/^void DB::init_dir_page( directory_page* dp, unsigned used_bytes )$/;"	f	class:DB
+insertKey	src/btindex_page.C	/^Status BTIndexPage::insertKey (const void *key,$/;"	f	class:BTIndexPage
+insertRec	src/btleaf_page.C	/^Status BTLeafPage::insertRec(const void *key,$/;"	f	class:BTLeafPage
+insertRecord	src/heapfile.C	/^Status HeapFile::insertRecord(char *recPtr, int recLen, RID& outRid)$/;"	f	class:HeapFile
+insertRecord	src/sorted_page.C	/^Status SortedPage::insertRecord (AttrType key_type,$/;"	f	class:SortedPage
+intVal	include/catalog.h	/^    int   intVal;$/;"	m	struct:attrData
+intkey	include/bt.h	/^  int intkey;$/;"	m	union:Keytype
+key	include/bt.h	/^  Keytype    key;$/;"	m	struct:KeyDataEntry
+key	src/SMJTester.C	/^	int	key;$/;"	m	struct:_rec	file:
+key	src/btree_driver.C	/^	int key;$/;"	m	struct:dummy	file:
+key1_pos	src/sort.C	/^      key1_pos,$/;"	v
+key2_pos	src/sort.C	/^      key2_pos;$/;"	v
+keyCompare	src/key.C	/^int keyCompare(const void *key1, const void *key2, AttrType t)$/;"	f
+keySize	src/sort_driver.C	/^int	keySize;$/;"	v
+key_size	src/sort.C	/^int   key_size,$/;"	v
+key_type	include/btfile.h	/^        AttrType key_type;   \/\/ type of keys in tree$/;"	m	struct:BTreeFile::BTreeHeaderPage
+key_type	src/sort.C	/^AttrType key_type;$/;"	v
+keysize	include/btfile.h	/^        int keysize;         \/\/ max key length (specified at index creation)$/;"	m	struct:BTreeFile::BTreeHeaderPage
+keysize	src/btreefilescan.C	/^int BTreeFileScan::keysize()$/;"	f	class:BTreeFileScan
+last	include/new_error.h	/^    error_node* last;$/;"	m	class:global_errors
+leafp	include/btreefilescan.h	/^    BTLeafPage *leafp;          \/\/ leaf page containing current record$/;"	m	class:BTreeFileScan
+length	include/btfile.h	/^        short   length;       \/\/ equals INVALID_PAGE if slot is not in use$/;"	m	struct:BTreeFile::slot_t
+length	include/hfpage.h	/^        short   length;    \/\/ equals EMPTY_SLOT if slot is not in use$/;"	m	struct:HFPage::slot_t
+logpath	src/test_driver.h	/^    char* logpath;$/;"	m	class:TestDriver
+lopAND	include/minirel.h	/^enum LogicalOperator { lopAND, lopOR, lopNOT };$/;"	e	enum:LogicalOperator
+lopNOT	include/minirel.h	/^enum LogicalOperator { lopAND, lopOR, lopNOT };$/;"	e	enum:LogicalOperator
+lopOR	include/minirel.h	/^enum LogicalOperator { lopAND, lopOR, lopNOT };$/;"	e	enum:LogicalOperator
+magic0	include/btfile.h	/^        unsigned long magic0; \/\/ magic number for sanity checking$/;"	m	struct:BTreeFile::BTreeHeaderPage
+main	src/main.C	/^int main()$/;"	f
+main	src/sort_driver.C	/^main(int argc, char **argv)$/;"	f
+make_entry	src/key.C	/^void make_entry(KeyDataEntry *target,$/;"	f
+malloc	include/system_defs.h	/^    char* malloc( unsigned size )$/;"	f	class:SystemDefs
+max	include/catalog.h	/^    int max;$/;"	m	class:AttrCatalog
+maxVal	include/catalog.h	/^    attrData maxVal;$/;"	m	struct:AttrDesc
+max_size	include/tuple.h	/^    static int max_size;        \/\/ Maximum size of any tuple $/;"	m	class:Tuple
+mgr	include/buf.h	/^    BufMgr *mgr;$/;"	m	class:Replacer
+minVal	include/catalog.h	/^    attrData minVal;                      \/\/ min max key values$/;"	m	struct:AttrDesc
+minibase_errors	src/new_error.C	/^global_errors minibase_errors;$/;"	v
+minibase_globals	src/system_defs.C	/^SystemDefs* minibase_globals;$/;"	v
+msg	include/new_error.h	/^    char* msg;                  \/\/ An extra error message.$/;"	m	class:error_node
+mvNext	src/scan.C	/^Status Scan::mvNext(RID& rid)$/;"	f	class:Scan
+name	include/buf.h	/^    const char *name() { return "Clock"; }$/;"	f	class:Clock
+name	include/db.h	/^    char* name;$/;"	m	class:DB
+name	include/lru.h	/^    const char* name() { return "LRU"; }$/;"	f	class:LRU
+name	include/mru.h	/^    const char* name() { return "MRU"; }$/;"	f	class:MRU
+nextDataPage	src/scan.C	/^Status Scan::nextDataPage()$/;"	f	class:Scan
+nextPage	include/hfpage.h	/^    PageId    nextPage;    \/\/ forward pointer to data page$/;"	m	class:HFPage
+next_node	include/new_error.h	/^    error_node* next_node;$/;"	m	class:error_node
+next_page	include/db.h	/^        PageId     next_page;$/;"	m	struct:DB::directory_page
+nframes	include/lru.h	/^    unsigned nframes;$/;"	m	class:LRU
+noOfFlds	include/tuple.h	/^    short noOfFlds(){        \/\/ Returns number of fields in this tuple$/;"	f	class:Tuple
+nodetype	include/bt.h	/^} nodetype;$/;"	t	typeref:enum:__anon2
+numBuffers	include/buf.h	/^    unsigned int    numBuffers;$/;"	m	class:BufMgr
+numPages	include/catalog.h	/^    int  numPages;                \/\/ number of pages in the file$/;"	m	struct:RelDesc
+numTuples	include/catalog.h	/^    int  numTuples;               \/\/ number of tuples in the relation$/;"	m	struct:RelDesc
+num_db_pages	include/db.h	/^        unsigned num_db_pages;  \/\/ How big the database is.$/;"	m	struct:DB::first_page
+num_entries	include/db.h	/^        unsigned   num_entries;$/;"	m	struct:DB::directory_page
+num_pages	include/db.h	/^    unsigned num_pages;$/;"	m	class:DB
+num_recs	include/hfpage.h	/^    int  num_recs() { return slotCnt; }$/;"	f	class:HFPage
+numberOfRecords	src/sorted_page.C	/^int SortedPage::numberOfRecords()$/;"	f	class:SortedPage
+nxtUserStatus	include/scan.h	/^    Status  nxtUserStatus;$/;"	m	class:Scan
+offset	include/btfile.h	/^        short   offset;$/;"	m	struct:BTreeFile::slot_t
+offset	include/hfpage.h	/^        short   offset;  $/;"	m	struct:HFPage::slot_t
+offsetof	src/heapfile.C	17;"	d	file:
+openScan	src/heapfile.C	/^Scan *HeapFile::openScan(Status& status)$/;"	f	class:HeapFile
+operator !=	include/minirel.h	/^int operator!=(const RID rid) const$/;"	f	struct:RID
+operator <<	src/system_defs.C	/^ostream& operator<< (ostream& out, const struct RID rid)$/;"	f
+operator ==	include/minirel.h	/^int operator==(const RID rid) const$/;"	f	struct:RID
+order	include/catalog.h	/^    TupleOrder order;                     \/\/ order of keys   $/;"	m	struct:IndexDesc
+originator	include/new_error.h	/^    Status originator()$/;"	f	class:global_errors
+pageId	include/heapfile.h	/^	PageId	pageId;$/;"	m	struct:DataPageInfo
+pageNo	include/bt.h	/^  PageId      pageNo;  \/\/ for index page entries$/;"	m	union:Datatype
+pageNo	include/buf.h	/^    int    pageNo;     \/\/ the page within file, or INVALID_PAGE if$/;"	m	class:FrameDesc
+pageNo	include/minirel.h	/^PageId  pageNo;$/;"	m	struct:RID
+page_no	include/hfpage.h	/^    PageId page_no() { return curPage;} \/\/ returns the page number$/;"	f	class:HFPage
+pagenum	include/db.h	/^        PageId pagenum;         \/\/ INVALID_PAGE if no entry.$/;"	m	struct:DB::file_entry
+parse	src/sort_driver.C	/^char** parse(int argc, char** argv)$/;"	f
+peekNext	include/scan.h	/^    Status peekNext(RID& rid) {$/;"	f	class:Scan
+perm_mat	include/index_scan.h	/^FldSpec *perm_mat;$/;"	m	class:IndexScanIter
+pin	include/buf.h	/^    int pin() { return(++pin_cnt); }$/;"	f	class:FrameDesc
+pin_cnt	include/buf.h	/^    unsigned int pin_cnt;  \/\/ The pin count for the page in this frame$/;"	m	class:FrameDesc
+pin_count	include/buf.h	/^    int pin_count() { return(pin_cnt); }$/;"	f	class:FrameDesc
+position	src/scan.C	/^Status Scan::position(RID rid)$/;"	f	class:Scan
+prevPage	include/hfpage.h	/^    PageId    prevPage;    \/\/ backward pointer to data page$/;"	m	class:HFPage
+prior_status	include/new_error.h	/^    Status prior_status;        \/\/ The status that prompted the error, or OK.$/;"	m	class:error_node
+r	src/btree_driver.C	/^	RID r;$/;"	m	struct:dummy	file:
+read_page	src/db.C	/^Status DB::read_page(PageId pageno, Page* pageptr)$/;"	f	class:DB
+redistribute	src/btindex_page.C	/^bool BTIndexPage::redistribute(BTIndexPage *pptr, BTIndexPage *parentPtr,$/;"	f	class:BTIndexPage
+redistribute	src/btleaf_page.C	/^bool BTLeafPage::redistribute(BTLeafPage *pptr, BTIndexPage *parentPtr, AttrType key_type, int left, const void *deletedKey)$/;"	f	class:BTLeafPage
+relName	include/catalog.h	/^    char       relName[MAXNAME];          \/\/ relation name$/;"	m	struct:IndexDesc
+relName	include/catalog.h	/^    char     relName[MAXNAME];            \/\/ relation name$/;"	m	struct:AttrDesc
+relName	include/catalog.h	/^    char relName[MAXNAME];        \/\/ relation name$/;"	m	struct:RelDesc
+replacer	include/buf.h	/^    Replacer       *replacer;$/;"	m	class:BufMgr
+reset	src/scan.C	/^Status Scan::reset()$/;"	f	class:Scan
+rid	include/bt.h	/^  RID         rid;     \/\/ for leaf page entries$/;"	m	union:Datatype
+root	include/btfile.h	/^        PageId root;         \/\/ page containing root of tree$/;"	m	struct:BTreeFile::BTreeHeaderPage
+runAllTests	src/SMJTester.C	/^Status SMJTester::runAllTests()$/;"	f	class:SMJTester
+runAllTests	src/test_driver.C	/^Status TestDriver::runAllTests()$/;"	f	class:TestDriver
+runTest	src/test_driver.C	/^void TestDriver::runTest( Status& status, TestDriver::testFunction test )$/;"	f	class:TestDriver
+runTests	src/SMJTester.C	/^Status SMJTester::runTests()$/;"	f	class:SMJTester
+runTests	src/btree_driver.C	/^Status BTreeTest::runTests(){$/;"	f	class:BTreeTest
+runTests	src/test_driver.C	/^Status TestDriver::runTests()$/;"	f	class:TestDriver
+s_order	src/sort.C	/^TupleOrder s_order;$/;"	v
+selBoth	include/minirel.h	/^enum SelectType { selRange, selExact, selBoth, selUndefined };$/;"	e	enum:SelectType
+selExact	include/minirel.h	/^enum SelectType { selRange, selExact, selBoth, selUndefined };$/;"	e	enum:SelectType
+selRange	include/minirel.h	/^enum SelectType { selRange, selExact, selBoth, selUndefined };$/;"	e	enum:SelectType
+selUndefined	include/minirel.h	/^enum SelectType { selRange, selExact, selBoth, selUndefined };$/;"	e	enum:SelectType
+setFld	include/tuple.h	/^    Tuple *setFld(int fldNo, char *val){ \/\/ Set this field to string value$/;"	f	class:Tuple
+setFld	include/tuple.h	/^    Tuple *setFld(int fldNo, float val){ \/\/ Set this field to float value$/;"	f	class:Tuple
+setFld	include/tuple.h	/^    Tuple *setFld(int fldNo, int val){ \/\/ Set this field to integer value$/;"	f	class:Tuple
+setLeftLink	include/btindex_page.h	/^   void   setLeftLink(PageId left) { setPrevPage(left); }$/;"	f	class:BTIndexPage
+set_bits	src/db.C	/^Status DB::set_bits( PageId start_page, unsigned run_size, int bit )$/;"	f	class:DB
+set_next	include/new_error.h	/^    void set_next(error_node* nxt)      { next_node = nxt; }$/;"	f	class:error_node
+set_type	include/sorted_page.h	/^  void  set_type(short t) { type = t; }$/;"	f	class:SortedPage
+show_error	src/new_error.C	/^void error_node::show_error( ostream& to ) const$/;"	f	class:error_node
+show_errors	src/new_error.C	/^void global_errors::show_errors( ostream& to )$/;"	f	class:global_errors
+show_errors	src/new_error.C	/^void global_errors::show_errors()$/;"	f	class:global_errors
+size	include/tuple.h	/^    short size(){                \/\/ Returns size of this tuple in bytes$/;"	f	class:Tuple
+slot	include/hfpage.h	/^    slot_t    slot[1];     \/\/ first element of slot array.$/;"	m	class:HFPage
+slotCnt	include/hfpage.h	/^    short     slotCnt;     \/\/ number of slots in use$/;"	m	class:HFPage
+slotNo	include/minirel.h	/^int  slotNo;$/;"	m	struct:RID
+slot_t	include/btfile.h	/^    struct slot_t {$/;"	s	class:BTreeFile
+slot_t	include/hfpage.h	/^    struct slot_t {$/;"	s	class:HFPage
+sortErrors	src/sort.C	/^enum sortErrors { OPEN_HPFILE_FAILED, 	\/\/ open heap file for read or write.$/;"	g	file:
+sortMerge	src/sortMerge.C	/^sortMerge::sortMerge($/;"	f	class:sortMerge
+sortMerge	src/sortMerge.h	/^class sortMerge $/;"	c
+sortMsgs	src/sort.C	/^const char* sortMsgs[] = {"Unable to open heap file.",$/;"	v
+sortOrder	src/sort_driver.C	/^TupleOrder sortOrder;$/;"	v
+sort_value1	src/btree_driver.C	/^	int sort_value1;$/;"	m	struct:dummy	file:
+sort_value2	src/btree_driver.C	/^	int sort_value2;$/;"	m	struct:dummy	file:
+state_bit	include/buf.h	/^    STATE      *state_bit;      \/\/ [numBuffers]$/;"	m	class:Replacer
+status	include/new_error.h	/^    Status status()$/;"	f	class:global_errors
+strVal	include/catalog.h	/^    char  strVal[10];$/;"	m	struct:attrData
+str_sizes	include/catalog.h	/^    short *str_sizes;$/;"	m	class:AttrCatalog
+str_sizes	include/catalog.h	/^    short *str_sizes;$/;"	m	class:IndexCatalog
+str_sizes	include/catalog.h	/^    short *str_sizes;$/;"	m	class:RelCatalog
+subsystem	include/new_error.h	/^    Status subsystem;           \/\/ The subsystem that added the error.$/;"	m	class:error_node
+t1_size	include/index_scan.h	/^        int      t1_size;$/;"	m	class:IndexScanIter
+table	include/new_error.h	/^    static const char** table[];$/;"	m	class:error_string_table
+table	src/new_error.C	/^const char** error_string_table::table[NUM_STATUS_CODES];$/;"	m	class:error_string_table	file:
+team_name	src/new_error.C	/^const char* error_node::team_name(Status T1)$/;"	f	class:error_node
+test	src/SMJTester.C	/^Status test(int t)$/;"	f
+test1	src/SMJTester.C	/^int SMJTester::test1()$/;"	f	class:SMJTester
+test1	src/btree_driver.C	/^void BTreeTest::test1() {$/;"	f	class:BTreeTest
+test1	src/sort_driver.C	/^void test1()$/;"	f
+test1	src/test_driver.C	/^int TestDriver::test1()$/;"	f	class:TestDriver
+test2	src/SMJTester.C	/^int SMJTester::test2()$/;"	f	class:SMJTester
+test2	src/btree_driver.C	/^void BTreeTest::test2() {$/;"	f	class:BTreeTest
+test2	src/sort_driver.C	/^void test2()$/;"	f
+test2	src/test_driver.C	/^int TestDriver::test2()$/;"	f	class:TestDriver
+test3	src/SMJTester.C	/^int SMJTester::test3()$/;"	f	class:SMJTester
+test3	src/btree_driver.C	/^void BTreeTest::test3() {$/;"	f	class:BTreeTest
+test3	src/test_driver.C	/^int TestDriver::test3()$/;"	f	class:TestDriver
+test4	src/SMJTester.C	/^int SMJTester::test4()$/;"	f	class:SMJTester
+test4	src/btree_driver.C	/^void BTreeTest::test4() {$/;"	f	class:BTreeTest
+test4	src/test_driver.C	/^int TestDriver::test4()$/;"	f	class:TestDriver
+test5	src/SMJTester.C	/^int SMJTester::test5()$/;"	f	class:SMJTester
+test5	src/test_driver.C	/^int TestDriver::test5()$/;"	f	class:TestDriver
+test6	src/SMJTester.C	/^int SMJTester::test6()$/;"	f	class:SMJTester
+test6	src/test_driver.C	/^int TestDriver::test6()$/;"	f	class:TestDriver
+testFailure	src/test_driver.C	/^void TestDriver::testFailure( Status& status, Status expectedStatus,$/;"	f	class:TestDriver
+testFunction	src/test_driver.h	/^    typedef int (TestDriver::*testFunction)();$/;"	t	class:TestDriver
+testName	src/SMJTester.C	/^const char* SMJTester::testName()$/;"	f	class:SMJTester
+testName	src/test_driver.C	/^const char* TestDriver::testName()$/;"	f	class:TestDriver
+test_scan	src/btree_driver.C	/^void BTreeTest::test_scan(IndexFileScan* scan)$/;"	f	class:BTreeTest
+treep	include/btreefilescan.h	/^    BTreeFile *treep;           \/\/ B+ tree we're scanning$/;"	m	class:BTreeFileScan
+tuple	include/catalog.h	/^    Tuple *tuple;$/;"	m	class:AttrCatalog
+tuple	include/catalog.h	/^    Tuple *tuple;$/;"	m	class:IndexCatalog
+tuple	include/catalog.h	/^    Tuple *tuple;$/;"	m	class:RelCatalog
+tuple1	include/index_scan.h	/^        Tuple    * tuple1;$/;"	m	class:IndexScanIter
+tupleCmp	src/sort.C	/^int tupleCmp (const void* t1, const void* t2)$/;"	f
+tupleErrCodes	include/tuple.h	/^enum tupleErrCodes {$/;"	g
+type	include/hfpage.h	/^    short     type;        \/\/ an arbitrary value used by subclasses as needed$/;"	m	class:HFPage
+uchar	include/da_types.h	/^typedef unsigned char uchar;$/;"	t
+uint	include/da_types.h	/^typedef unsigned int uint;$/;"	t
+ulong	include/da_types.h	/^typedef unsigned long ulong;$/;"	t
+unpin	include/buf.h	/^    int unpin() {$/;"	f	class:FrameDesc
+updateRecord	src/heapfile.C	/^Status HeapFile::updateRecord (const RID& rid, char *recPtr, int recLen)$/;"	f	class:HeapFile
+usage	src/sort_driver.C	/^void usage(char *name)$/;"	f
+userrid	include/scan.h	/^    RID     userrid;$/;"	m	class:Scan
+ushort	include/da_types.h	/^typedef unsigned short ushort;$/;"	t
+write_page	src/db.C	/^Status DB::write_page(PageId pageno, Page* pageptr)$/;"	f	class:DB
+~BTreeFileScan	src/btreefilescan.C	/^BTreeFileScan::~BTreeFileScan ()$/;"	f	class:BTreeFileScan
+~DB	src/db.C	/^DB::~DB()$/;"	f	class:DB
+~FrameDesc	include/buf.h	/^   ~FrameDesc() {}$/;"	f	class:FrameDesc
+~HeapFile	src/heapfile.C	/^HeapFile::~HeapFile()$/;"	f	class:HeapFile
+~IndexFile	include/index.h	/^    virtual ~IndexFile() {};      \/\/ will close file, not destroy it$/;"	f	class:IndexFile
+~IndexFileScan	include/index.h	/^     virtual ~IndexFileScan() {}  \/\/ will close scan$/;"	f	class:IndexFileScan
+~Page	src/page.C	/^Page::~Page()$/;"	f	class:Page
+~SMJTester	src/SMJTester.C	/^SMJTester::~SMJTester()$/;"	f	class:SMJTester
+~Scan	src/scan.C	/^Scan::~Scan()$/;"	f	class:Scan
+~Sort	src/sort.h	/^    ~Sort(){}$/;"	f	class:Sort
+~SystemDefs	src/system_defs.C	/^SystemDefs::~SystemDefs()$/;"	f	class:SystemDefs
+~TestDriver	src/test_driver.C	/^TestDriver::~TestDriver()$/;"	f	class:TestDriver
+~error_node	src/new_error.C	/^error_node::~error_node()$/;"	f	class:error_node
+~global_errors	src/new_error.C	/^global_errors::~global_errors()$/;"	f	class:global_errors
+~sortMerge	src/sortMerge.C	/^sortMerge::~sortMerge()$/;"	f	class:sortMerge
